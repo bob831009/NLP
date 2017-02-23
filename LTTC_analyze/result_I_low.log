@@ -1,0 +1,97 @@
+   lhs                rhs           support confidence     lift
+1  {writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+2  {translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+3  {level=I,                                                   
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+4  {CNCNeg=0,                                                  
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+5  {CNCPos=0,                                                  
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+6  {level=I,                                                   
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+7  {CNCNeg=0,                                                  
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+8  {CNCPos=0,                                                  
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+9  {CNCNeg=0,                                                  
+    level=I,                                                   
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+10 {CNCPos=0,                                                  
+    level=I,                                                   
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+11 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+12 {CNCNeg=0,                                                  
+    level=I,                                                   
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+13 {CNCPos=0,                                                  
+    level=I,                                                   
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+14 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+15 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    level=I,                                                   
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+16 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    level=I,                                                   
+    translation=3,                                             
+    writing=54}    => {score=2.5} 0.1122807  1.0000000 5.928678
+17 {translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+18 {level=I,                                                   
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+19 {CNCNeg=0,                                                  
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+20 {CNCPos=0,                                                  
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+21 {CNCNeg=0,                                                  
+    level=I,                                                   
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+22 {CNCPos=0,                                                  
+    level=I,                                                   
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+23 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+24 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    level=I,                                                   
+    translation=3,                                             
+    writing=60}    => {score=3}   0.1047619  1.0000000 5.911111
+25 {writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+26 {level=I,                                                   
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+27 {CNCNeg=0,                                                  
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+28 {CNCPos=0,                                                  
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+29 {CNCNeg=0,                                                  
+    level=I,                                                   
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+30 {CNCPos=0,                                                  
+    level=I,                                                   
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+31 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104
+32 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    level=I,                                                   
+    writing=60}    => {score=3}   0.1047619  0.9812207 5.800104

@@ -1,0 +1,63 @@
+裡面會有三個python檔 + Makefile + Readme2 + libfm的安裝檔
+
+如何簡單使用：
+只要照著步驟做即可
+1. 先裝好libfm，並且將以上所有檔案放到同一個目錄底下
+2. 在shell上輸入"make"，他就會將所有需要的檔案生出來
+3. 再輸入"python prediction.py"，它就會將結果跑出來（大約1分鐘）
+
+以下是More Detail
+=================================================================
+1. fetch_data.py
+兩個參數 level , num
+level = [HI, I, HIS, IS]
+num = 你需要產生的數量
+使用方式：python fetch_data.py [level] [num]
+
+可以用來產生train_data, test_data，都是random後的資料
+而每個data_file需要有一定名字，因為要給prediction.py跑
+（或是也可以去prediction.py改成自己喜歡的名字）
+
+##### 規定產生的data_file_name #########
+$$_feature_train.txt  注意：$$ = level
+$$_test.txt  注意：$$ = level
+######################################
+
+
+Ex: python fetch_data.py HI 100 > HI_feature_train.txt
+==================================================================
+2. fetch_data_pass.py
+兩個參數 level , num
+level = [HI, I, HIS, IS]
+num = 你需要產生的數量
+使用方式：python fetch_data_pass.py [level] [num]
+
+可以用來產生train_data, test_data，都是random後的資料
+跟fetch_data.py不一樣的地方是，他會根據得到的資料分數，換成pass/no pass(看是否大於4分)
+如果是pass就為1，反之則為0
+而每個data_file需要有一定名字，因為要給prediction.py跑
+（或是也可以去prediction.py改成自己喜歡的名字）
+
+##### 規定產生的data_file_name #############
+$$_pass_feature_train.txt  注意：$$ = level
+$$_pass_test.txt  注意：$$ = level
+##########################################
+
+Ex: python fetch_data_pass.py HI 100 > HI_pass_feature_train.txt
+===================================================================
+3. prediction.py
+有了以上多個檔之後
+再使用libfm跑即可
+需要先將libfm檔案解壓縮，在安裝好之後
+放在自己的目錄底下
+他會是一個檔案，名叫：libfm-1.42.src
+
+將上面的多個檔案，放到同一個目錄底下
+在跑prediction.py即可
+他會將每筆資料的prediction儲存在下面多個檔案裡面
+$$_prediction.txt    注意：$$ = level
+$$_pass_prediction.txt    注意：$$ = level
+
+===================================================================
+如果不太清楚，也可以去nlp.csie.org裡面的bob831009/project7
+裡面會有範例

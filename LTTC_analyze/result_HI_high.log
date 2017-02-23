@@ -1,0 +1,141 @@
+   lhs                      rhs         support confidence     lift
+1  {collocation_w=80}    => {score=4} 0.1409348          1 3.577703
+2  {collocation_c=80,                                              
+    collocation_w=80}    => {score=4} 0.1019830          1 3.577703
+3  {collocation_ratio=4,                                           
+    collocation_w=80}    => {score=4} 0.1310198          1 3.577703
+4  {collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1192162          1 3.577703
+5  {CNCNeg=0,                                                      
+    collocation_w=80}    => {score=4} 0.1409348          1 3.577703
+6  {CNCPos=0,                                                      
+    collocation_w=80}    => {score=4} 0.1409348          1 3.577703
+7  {collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1409348          1 3.577703
+8  {CNCNeg=0,                                                      
+    collocation_c=80,                                              
+    collocation_w=80}    => {score=4} 0.1019830          1 3.577703
+9  {CNCPos=0,                                                      
+    collocation_c=80,                                              
+    collocation_w=80}    => {score=4} 0.1019830          1 3.577703
+10 {collocation_c=80,                                              
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1019830          1 3.577703
+11 {collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1123702          1 3.577703
+12 {CNCNeg=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80}    => {score=4} 0.1310198          1 3.577703
+13 {CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80}    => {score=4} 0.1310198          1 3.577703
+14 {collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1310198          1 3.577703
+15 {CNCNeg=0,                                                      
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1192162          1 3.577703
+16 {CNCPos=0,                                                      
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1192162          1 3.577703
+17 {collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1192162          1 3.577703
+18 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_w=80}    => {score=4} 0.1409348          1 3.577703
+19 {CNCNeg=0,                                                      
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1409348          1 3.577703
+20 {CNCPos=0,                                                      
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1409348          1 3.577703
+21 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_c=80,                                              
+    collocation_w=80}    => {score=4} 0.1019830          1 3.577703
+22 {CNCNeg=0,                                                      
+    collocation_c=80,                                              
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1019830          1 3.577703
+23 {CNCPos=0,                                                      
+    collocation_c=80,                                              
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1019830          1 3.577703
+24 {CNCNeg=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1123702          1 3.577703
+25 {CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1123702          1 3.577703
+26 {collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1123702          1 3.577703
+27 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80}    => {score=4} 0.1310198          1 3.577703
+28 {CNCNeg=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1310198          1 3.577703
+29 {CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1310198          1 3.577703
+30 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1192162          1 3.577703
+31 {CNCNeg=0,                                                      
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1192162          1 3.577703
+32 {CNCPos=0,                                                      
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1192162          1 3.577703
+33 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1409348          1 3.577703
+34 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_c=80,                                              
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1019830          1 3.577703
+35 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0}        => {score=4} 0.1123702          1 3.577703
+36 {CNCNeg=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1123702          1 3.577703
+37 {CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1123702          1 3.577703
+38 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    level=HI}            => {score=4} 0.1310198          1 3.577703
+39 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1192162          1 3.577703
+40 {CNCNeg=0,                                                      
+    CNCPos=0,                                                      
+    collocation_ratio=4,                                           
+    collocation_w=80,                                              
+    incomplete=0,                                                  
+    level=HI}            => {score=4} 0.1123702          1 3.577703

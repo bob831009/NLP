@@ -1,0 +1,49 @@
+   lhs                rhs           support confidence     lift
+1  {writing=86}    => {score=4.5} 0.1047619          1 5.911111
+2  {translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+3  {CNCNeg=0,                                                  
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+4  {CNCPos=0,                                                  
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+5  {level=I,                                                   
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+6  {CNCNeg=0,                                                  
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+7  {CNCPos=0,                                                  
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+8  {level=I,                                                   
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+9  {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+10 {CNCNeg=0,                                                  
+    level=I,                                                   
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+11 {CNCPos=0,                                                  
+    level=I,                                                   
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+12 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+13 {CNCNeg=0,                                                  
+    level=I,                                                   
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+14 {CNCPos=0,                                                  
+    level=I,                                                   
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+15 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    level=I,                                                   
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111
+16 {CNCNeg=0,                                                  
+    CNCPos=0,                                                  
+    level=I,                                                   
+    translation=4,                                             
+    writing=86}    => {score=4.5} 0.1047619          1 5.911111

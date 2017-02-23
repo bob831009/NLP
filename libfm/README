@@ -1,0 +1,64 @@
+裡面會有三個檔案
+=================================================================
+1. fetch_data.py
+兩個參數 level , num
+level = [HI, I]
+num = 你需要產生的數量
+使用方式：python fetch_data.py [level] [num]
+
+可以用來產生train_data, test_data，都是random後的資料
+而每個data_file需要有一定名字，因為要給prediction.py跑
+（或是也可以去prediction.py改成自己喜歡的名字）
+
+##### 規定產生的data_file_name ######
+HI_feature_train.txt
+I_feature_train.txt
+HI_test.txt
+I_test.txt
+###################################
+
+
+Ex: python fetch_data.py HI 100 > HI_feature_train.txt
+==================================================================
+2. fetch_data_pass.py
+兩個參數 level , num
+level = [HI, I]
+num = 你需要產生的數量
+使用方式：python fetch_data_pass.py [level] [num]
+
+可以用來產生train_data, test_data，都是random後的資料
+跟fetch_data.py不一樣的地方是，他會根據得到的資料分數，換成pass/no pass(看是否大於4分)
+如果是pass就為1，反之則為0
+而每個data_file需要有一定名字，因為要給prediction.py跑
+（或是也可以去prediction.py改成自己喜歡的名字）
+
+##### 規定產生的data_file_name ######
+HI_pass_feature_train.txt
+I_pass_feature_train.txt
+HI_pass_test.txt
+I_pass_test.txt
+###################################
+
+Ex: python fetch_data_pass.py HI 100 > HI_pass_feature_train.txt
+===================================================================
+3. prediction.py
+有了以上八個檔之後
+在使用libfm跑即可
+需要先將libfm檔案解壓縮，在安裝好之後
+放在自己的目錄底下
+他會是一個檔案，名叫：libfm-1.42.src
+
+將上面的八個檔案，放到同一個目錄底下
+在跑prediction.py即可
+他會將每筆資料的prediction儲存在下面四個檔案裡面
+HI_prediction.txt
+HI_pass_prediction.txt
+I_prediction.txt
+I_pass_prediction.txt
+
+他會跑出四個結果
+分別是HI, I，的在一分以內，和pass/no pass的準確度
+
+===================================================================
+如果不太清楚，也可以去nlp.csie.org裡面的bob831009/project7
+裡面會有範例

@@ -1,0 +1,16 @@
+一開始在terminal下進到檔案的directory
+在terminal下輸入R（若沒反應則表示你需要先安裝好Ｒ）
+因為有需要用到arules的library，所以一開始要輸入
+install.packages(“arules”);
+之後他會開始進行安裝
+裝完之後要將R的程式load進來
+所以輸入
+source(LTTC_analyze.R);
+之後就可以開始跑程式了
+跑程式的方式是，輸入
+LTTC_analyze(level, score);
+level可以使用兩個 “I” , “HI”
+score可以使用兩個 “high” , “low”
+（注意！一定要只用引號“”）
+之後就會將要輸出的資料print到result_level_score.log中
+並且存到同一個目錄底下
